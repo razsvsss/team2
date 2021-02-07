@@ -1,0 +1,85 @@
+.section {
+  padding: 4rem 0;
+}
+
+.section__background {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://smartinnovates.com/themes/canteen/wp/wp-content/uploads/2020/06/bg-03.jpg");
+  opacity: 0.04;
+  background-attachment: fixed;
+}
+
+.section__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section__subtitle {
+  color: #0d6efd;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.section__title {
+  text-transform: uppercase;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.section--booking .section__content {
+  background-color: #fff !important;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid #ddd;
+  margin: 1rem;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+  background-color: #1f1f1f;
+  color: #999999;
+  padding: 2rem 0;
+}
+
+.footer__top {
+  color: #eeeeee;
+}
+
+.footer__middle {
+  margin: 2rem 0;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__list li {
+  margin: 5px;
+  font-size: 1.1rem;
+}
+
+.footer__list--middle {
+  justify-content: space-around;
+}
+
+.footer__bottom {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .footer__list--middle {
+    flex-direction: column;
+    align-items: center;
+  }
+}
